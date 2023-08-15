@@ -14,7 +14,7 @@ public class Main {
 		
 		System.out.println(interface3_1.print("john","14","male"));
 		
-		//constructor reference 
+		//constructor reference using new keyword
 		SampleInterface4 interface3_2 = SampleClass::new;
 		
 		interface3_2.print("john","14","male");
